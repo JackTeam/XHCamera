@@ -19,6 +19,8 @@
 		ABA7F85C189B394B00B8E8DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA7F844189B394A00B8E8DB /* UIKit.framework */; };
 		ABA7F864189B394B00B8E8DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABA7F862189B394B00B8E8DB /* InfoPlist.strings */; };
 		ABA7F866189B394B00B8E8DB /* XHCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA7F865189B394B00B8E8DB /* XHCameraTests.m */; };
+		ABA7F879189B3DA300B8E8DB /* XHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA7F876189B3DA300B8E8DB /* XHBaseViewController.m */; };
+		ABA7F87A189B3DA300B8E8DB /* XHCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA7F878189B3DA300B8E8DB /* XHCustomNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		ABA7F861189B394B00B8E8DB /* XHCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHCameraTests-Info.plist"; sourceTree = "<group>"; };
 		ABA7F863189B394B00B8E8DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABA7F865189B394B00B8E8DB /* XHCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHCameraTests.m; sourceTree = "<group>"; };
+		ABA7F875189B3DA300B8E8DB /* XHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBaseViewController.h; sourceTree = "<group>"; };
+		ABA7F876189B3DA300B8E8DB /* XHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBaseViewController.m; sourceTree = "<group>"; };
+		ABA7F877189B3DA300B8E8DB /* XHCustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCustomNavigationController.h; sourceTree = "<group>"; };
+		ABA7F878189B3DA300B8E8DB /* XHCustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCustomNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,10 @@
 		ABA7F871189B3CB700B8E8DB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ABA7F875189B3DA300B8E8DB /* XHBaseViewController.h */,
+				ABA7F876189B3DA300B8E8DB /* XHBaseViewController.m */,
+				ABA7F877189B3DA300B8E8DB /* XHCustomNavigationController.h */,
+				ABA7F878189B3DA300B8E8DB /* XHCustomNavigationController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -279,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA7F87A189B3DA300B8E8DB /* XHCustomNavigationController.m in Sources */,
+				ABA7F879189B3DA300B8E8DB /* XHBaseViewController.m in Sources */,
 				ABA7F851189B394A00B8E8DB /* AppDelegate.m in Sources */,
 				ABA7F84D189B394A00B8E8DB /* main.m in Sources */,
 			);
