@@ -77,6 +77,7 @@
 		ABA7F834189B394A00B8E8DB = {
 			isa = PBXGroup;
 			children = (
+				ABA7F86F189B39DC00B8E8DB /* Source */,
 				ABA7F846189B394A00B8E8DB /* XHCamera */,
 				ABA7F85F189B394B00B8E8DB /* XHCameraTests */,
 				ABA7F83F189B394A00B8E8DB /* Frameworks */,
@@ -142,6 +143,14 @@
 				ABA7F862189B394B00B8E8DB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA7F86F189B39DC00B8E8DB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
+			path = ../Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +452,7 @@
 				ABA7F86B189B394B00B8E8DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABA7F86C189B394B00B8E8DB /* Build configuration list for PBXNativeTarget "XHCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +461,7 @@
 				ABA7F86E189B394B00B8E8DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
