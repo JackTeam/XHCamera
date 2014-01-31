@@ -77,7 +77,6 @@
 		ABA7F834189B394A00B8E8DB = {
 			isa = PBXGroup;
 			children = (
-				ABA7F86F189B39DC00B8E8DB /* Source */,
 				ABA7F846189B394A00B8E8DB /* XHCamera */,
 				ABA7F85F189B394B00B8E8DB /* XHCameraTests */,
 				ABA7F83F189B394A00B8E8DB /* Frameworks */,
@@ -110,6 +109,11 @@
 			children = (
 				ABA7F84F189B394A00B8E8DB /* AppDelegate.h */,
 				ABA7F850189B394A00B8E8DB /* AppDelegate.m */,
+				ABA7F870189B3CB700B8E8DB /* Categorys */,
+				ABA7F871189B3CB700B8E8DB /* Controllers */,
+				ABA7F872189B3CB700B8E8DB /* Models */,
+				ABA7F873189B3CB700B8E8DB /* Vendor */,
+				ABA7F874189B3CB700B8E8DB /* Views */,
 				ABA7F852189B394A00B8E8DB /* Images.xcassets */,
 				ABA7F847189B394A00B8E8DB /* Supporting Files */,
 			);
@@ -145,12 +149,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ABA7F86F189B39DC00B8E8DB /* Source */ = {
+		ABA7F870189B3CB700B8E8DB /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Source;
-			path = ../Source;
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		ABA7F871189B3CB700B8E8DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ABA7F872189B3CB700B8E8DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABA7F873189B3CB700B8E8DB /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		ABA7F874189B3CB700B8E8DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
